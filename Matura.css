@@ -1,0 +1,30 @@
+body{
+background-color:lightgray;
+}
+.hintergrund{
+background-color:black;
+width:200vw;
+height:200vh;
+position:fixed;
+top:-100vh;
+left:-100vw;
+}
+.n_text{
+	font-size: 120%;
+	font-family: "Times New Roman", Times, serif;
+	 animation-fill-mode: forwards;
+}
+.alert{
+	background-color:white;
+	padding: 20px;
+	border: 1px solid black;
+	position:fixed;
+	left:25vw;
+	right:25vw;
+	top:35vh;
+	z-index:10;
+}
+.falsch{
+	background-color: rgba(255, 0, 0, 0.3);
+	border-color:red;
+}
