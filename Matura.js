@@ -26,7 +26,7 @@ $(".follow").css({
 }
 else{
 $(".follow").css({
- 	top:(window.innerWidth-window.innerHeight)/2+"px",
+ 	top:(window.innerHeight-window.innerWidth)/2+"px",
 	position:"absolute",
 	left:"0px",
 	height:"100vw",
