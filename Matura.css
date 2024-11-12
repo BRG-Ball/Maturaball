@@ -1,5 +1,6 @@
 body{
 background-color:lightgray;
+
 }
 .hintergrund{
 background-color:black;
@@ -9,7 +10,7 @@ position:fixed;
 top:-100vh;
 left:-100vw;
 }
-.n_text{
+.w_text{
 	font-size: 120%;
 	font-family: "Times New Roman", Times, serif;
 	 animation-fill-mode: forwards;
@@ -35,12 +36,28 @@ position:absolute;
 	height:97vh;
 }
 .hinter_anf{
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   margin: 0px;
   background-image: linear-gradient(to right, black 15% , white 50%,black 85%);
   background-position: 50% 100%;
-  top: 0%;
-  left: 0%;
-  position: fixed;
+  top: 0px;
+  left: 0px;
+  position: absolute;
 }
+.buffer{
+width:1vw;
+height:100vh;
+position:relative;
+left:49vw;	
+}
+.tabs_SCP{
+position: sticky;
+width:100%;
+top:0;
+font-size:0;
+
+}
+
+
+
