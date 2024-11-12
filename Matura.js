@@ -16,12 +16,23 @@ function check_v(){
 }
 
 function test(){
+if (window.innerWidth>=window.innerHeight){
 $(".follow").css({
  	top:"0px",
 	position:"absolute",
 	left: (window.innerWidth-(window.innerHeight*0.97))/2+"px",
 	height:"100vh",
   });
+}
+else{
+$(".follow").css({
+ 	top:"0px",
+	position:"absolute",
+	left: (window.innerWidth-(window.innerWidth*0.25))/2+"px",
+	height:"100vh",
+	width: "25vw"
+  });
+}
 }
  setTimeout(warning, 1)
  setInterval(test,1)
