@@ -14,15 +14,14 @@ function check_v(){
 	});
 	}
 }
-$(document).on( "focus",function() {
-  $(".bild_anf").css({
+
+function test(){
+$(".follow").css({
+ 	top:"0px",
 	position:"absolute",
-	right:"25vw",
-	left: "25vw",
-	height:window.innerHeight-$("#tabs").innerHeight()+"px"
+	left: (window.innerWidth-(window.innerHeight*0.97))/2+"px",
+	height:"100vh",
   });
-});
-
-
-
+}
  setTimeout(warning, 1)
+ setInterval(test,1)

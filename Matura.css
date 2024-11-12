@@ -28,3 +28,19 @@ left:-100vw;
 	background-color: rgba(255, 0, 0, 0.3);
 	border-color:red;
 }
+.bild_anf{
+	top:0px;
+position:absolute;
+	left: 25vw;
+	height:97vh;
+}
+.hinter_anf{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  background-image: linear-gradient(to right, black 15% , white 50%,black 85%);
+  background-position: 50% 100%;
+  top: 0%;
+  left: 0%;
+  position: fixed;
+}
