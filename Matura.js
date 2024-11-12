@@ -19,15 +19,15 @@ function check_v(){
 function resize(){
 if (window.innerWidth>=window.innerHeight){ //check for phone
 $(".follow").css({
- 	top:"0px",
+ 	bottom:"0px",
 	position:"absolute",
-	left: (window.innerWidth-(window.innerHeight*0.97))/2+"px",
+	left: (window.innerWidth-window.innerHeight)/2+"px",
 	height:"100vh",
   });
 }
 else{
 $(".follow").css({
- 	top:(window.innerHeight-window.innerWidth)/2+"px",
+ 	bottom:"0px",
 	position:"absolute",
 	left:"0px",
 	height:"100vw",
