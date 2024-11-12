@@ -28,9 +28,8 @@ else{
 $(".follow").css({
  	top:"0px",
 	position:"absolute",
-	left: (window.innerWidth-(window.innerWidth*0.25))/2+"px",
-	height:"100vh",
-	width: "25vw"
+	left:"0px",
+	height:"100vw",
   });
 }
 }
