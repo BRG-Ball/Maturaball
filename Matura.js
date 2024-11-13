@@ -39,7 +39,11 @@ $(".follow").css({
   "min-height":"22px",
    border: "2px black solid",
   display: "inline-block",
-overflow:"none"
+  });
+   $(".contain").css({
+	"position":"absolute",
+	"width":"100%",
+	"height":$("#Info").innerHeight()+"px",
   });
 }
  setTimeout(warning, 1)
@@ -47,4 +51,41 @@ overflow:"none"
 function skip(){
 document.getElementById("alert").remove()
 		document.getElementById("hintergrund").remove()
+}
+function m_Info(){
+var x = $("#moveable").position();
+console.log(x)
+console.log("tets")
+	$.keyframe.define([{
+	  name: 'schieben_info',
+	'0%': {'left': x.left},
+	 '100%':{'left':'0%'}
+}]);
+$("#moveable").removeAttr("class")
+$("#moveable").addClass("schieben_info")
+}	
+
+function m_Sach(){
+	var x = $("#moveable").position();
+console.log(x)
+console.log("tets")
+	$.keyframe.define([{
+	  name: 'schieben_Sach',
+	'0%': {'left': x.left},
+	 '100%':{'left':'100%'}
+}]);
+$("#moveable").removeAttr("class")
+$("#moveable").addClass("schieben_Sach")
+}
+function m_Geld(){
+var x = $("#moveable").position();
+console.log(x)
+console.log("tets")
+	$.keyframe.define([{
+	  name: 'schieben_Geld',
+	'0%': {'left': x.left},
+	 '100%':{'left':'200%'}
+}]);
+$("#moveable").removeAttr("class")
+$("#moveable").addClass("schieben_Geld")	
 }

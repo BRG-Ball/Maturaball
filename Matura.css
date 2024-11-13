@@ -1,6 +1,6 @@
 body{
 background-color:lightgray;
-
+overflow-x:hidden;
 }
 .hintergrund{
 background-color:black;
@@ -18,7 +18,7 @@ left:-100vw;
 .alert{
 	background-color:white;
 	padding: 20px;
-	border: 1px solid black;
+	border: 2px solid grey;
 	position:fixed;
 	left:25vw;
 	right:25vw;
@@ -51,13 +51,46 @@ height:100vh;
 position:relative;
 left:49vw;	
 }
-.tabs_SCP{
-position: sticky;
+.tabs_SCP{ 
 width:100%;
-top:0;
-font-size:0;
-
 }
-
-
+.schieben_Info{
+ animation: schieben_info 1s;
+ animation-fill-mode: forwards;
+ left:0%;
+ width:100%;
+ position: absolute;
+}
+.schieben_Sach{
+ animation: schieben_Sach 1s;
+ animation-fill-mode: forwards;
+ left:100%;
+ width:100%;
+ position: absolute;
+}
+.schieben_Geld{
+ animation: schieben_Geld 1s;
+ animation-fill-mode: forwards;
+ left:200%;
+ width:100%;
+ position: absolute;
+}
+.Info{
+overflow:visible;
+position:absolute;
+width:100%;
+left:0
+}
+.Sach{
+overflow:visible;
+position:absolute;
+width:100%;
+right:100%
+}
+.Geld{
+overflow:visible;
+position:absolute;
+width:100%;
+right:200%
+}
 
