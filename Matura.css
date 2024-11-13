@@ -4,8 +4,8 @@ overflow-x:hidden;
 }
 .hintergrund{
 background-color:black;
-width:200vw;
-height:200vh;
+width:220vw;
+height:220vh;
 position:fixed;
 top:-100vh;
 left:-100vw;
@@ -20,9 +20,9 @@ left:-100vw;
 	padding: 20px;
 	border: 2px solid grey;
 	position:fixed;
-	left:25vw;
-	right:25vw;
-	top:35vh;
+	left:25%;
+	right:25%;
+	top:35%;
 	z-index:10;
 }
 .falsch{
