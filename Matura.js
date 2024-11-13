@@ -35,17 +35,16 @@ $(".follow").css({
 }
   $(".tabs").css({
   "font-size":"20px",
-  width: ($("#tabs_SCP").innerWidth()-4*num)/num+"px",
+  width: ($("#tabs_SCP").innerWidth()-4*num)/num-1+"px",
   "min-height":"22px",
    border: "2px black solid",
   display: "inline-block",
   });
    $(".contain").css({
-	"position":"absolute",
-	"width":"100%",
+	"position":"relative",
 	"height":$("#Info").innerHeight()+"px",
   });
-}
+ }
  setTimeout(warning, 1)
  setInterval(resize,1)
 function skip(){

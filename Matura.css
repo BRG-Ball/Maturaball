@@ -1,6 +1,12 @@
 body{
 background-color:lightgray;
-overflow-x:hidden;
+  margin: 0;
+    height: 100%;
+	overflow:visible;
+}
+.handy_fix{
+	overflow-x:hidden;
+	max-width: 100%
 }
 .hintergrund{
 background-color:black;
@@ -13,7 +19,6 @@ left:-100vw;
 .w_text{
 	font-size: 120%;
 	font-family: "Times New Roman", Times, serif;
-	 animation-fill-mode: forwards;
 }
 .alert{
 	background-color:white;
@@ -31,7 +36,7 @@ left:-100vw;
 }
 .bild_anf{
 	top:0px;
-position:absolute;
+position:relative;
 	left: 25vw;
 	height:97vh;
 }
@@ -43,16 +48,11 @@ position:absolute;
   background-position: 50% 100%;
   top: 0px;
   left: 0px;
-  position: absolute;
-}
-.buffer{
-width:1vw;
-height:100vh;
-position:relative;
-left:49vw;	
+  position: relative;
 }
 .tabs_SCP{ 
-width:100%;
+width:98%;
+margin:1%;
 }
 .schieben_Info{
  animation: schieben_info 1s;
@@ -60,6 +60,8 @@ width:100%;
  left:0%;
  width:100%;
  position: absolute;
+ display:flex;
+flex-wrap:nowrap;
 }
 .schieben_Sach{
  animation: schieben_Sach 1s;
@@ -67,6 +69,8 @@ width:100%;
  left:100%;
  width:100%;
  position: absolute;
+ display:flex;
+flex-wrap:nowrap;
 }
 .schieben_Geld{
  animation: schieben_Geld 1s;
@@ -74,23 +78,28 @@ width:100%;
  left:200%;
  width:100%;
  position: absolute;
+ display:flex;
+flex-wrap:nowrap;
 }
 .Info{
 overflow:visible;
 position:absolute;
-width:100%;
-left:0
+width:98%;
+left:0;
+padding:1%;
 }
 .Sach{
 overflow:visible;
 position:absolute;
-width:100%;
-right:100%
+width:98%;
+right:100%;
+padding:1%;
 }
 .Geld{
 overflow:visible;
 position:absolute;
-width:100%;
-right:200%
+width:98%;
+right:200%;
+padding:1%;
 }
 
