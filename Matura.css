@@ -117,6 +117,8 @@ padding:1%;
 }
 .Hover_Inf{
 width:40%;
+top:25%;
+position:relative;
 }
 .dirc_contain{
 	display:flex;
