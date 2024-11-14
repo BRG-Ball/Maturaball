@@ -34,7 +34,6 @@ $(".follow").css({
   });
 }
   $(".tabs").css({
-  "font-size":"20px",
   width: ($("#tabs_SCP").innerWidth()-4*num)/num-1+"px",
   "min-height":"22px",
    border: "2px black solid",
