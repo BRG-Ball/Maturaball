@@ -101,14 +101,14 @@ padding:1%;
 overflow:visible;
 position:absolute;
 width:98%;
-left:-100%;
+left:100%;
 padding:1%;
 }
 .Geld{
 overflow:visible;
 position:absolute;
 width:98%;
-left:-200%;
+left:200%;
 padding:1%;
 }
 .dirc{

@@ -70,7 +70,7 @@ console.log("tets")
 	$.keyframe.define([{
 	  name: 'schieben_Sach',
 	'0%': {'left': x.left},
-	 '100%':{'left':'100%'}
+	 '100%':{'left':'-100%'}
 }]);
 $("#moveable").removeAttr("class")
 $("#moveable").addClass("schieben_Sach")
@@ -82,7 +82,7 @@ console.log("tets")
 	$.keyframe.define([{
 	  name: 'schieben_Geld',
 	'0%': {'left': x.left},
-	 '100%':{'left':'200%'}
+	 '100%':{'left':'-200%'}
 }]);
 $("#moveable").removeAttr("class")
 $("#moveable").addClass("schieben_Geld")	
