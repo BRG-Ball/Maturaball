@@ -1,5 +1,5 @@
 var num = 2
-function warning(){
+function warnig(){
 	document.getElementById("hinter").innerHTML=document.getElementById("hinter").innerHTML + "<div id='alert' class='alert'><p class='f_text'>Diese Website ist noch nicht vollendet, weswegen jeglicher Inhalt weder von dem Maturaball Komitee befürwortet wird noch ihrer Meinung entspricht</p>"+
 	"<br><br><p class='f_text'> Schreibe "+'"'+"Ich habe verstanden"+'"'+ " um dieses Fenster zu schließen</p><br>"+
 	"<input type='text' id='verstanden' class=''><br><br><input type='submit'value='Fertig' onclick='check_v()'></div> <div class='hintergrund' id='hintergrund'></div>"
@@ -44,7 +44,7 @@ $(".follow").css({
 	"height":$("#Geld").innerHeight()+"px",
   });
  }
- setTimeout(warning, 1)
+ /* setTimeout(warning, 1) */
  setInterval(resize,1)
 function skip(){
 document.getElementById("alert").remove()
