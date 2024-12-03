@@ -72,19 +72,10 @@ font-size:120%;
  display:flex;
 flex-wrap:nowrap;
 }
-.schieben_Sach{
- animation: schieben_Sach 1s;
- animation-fill-mode: forwards;
- left:100%;
- width:100%;
- position: absolute;
- display:flex;
-flex-wrap:nowrap;
-}
 .schieben_Geld{
  animation: schieben_Geld 1s;
  animation-fill-mode: forwards;
- left:200%;
+ left:100%;
  width:100%;
  position: absolute;
  display:flex;
@@ -97,18 +88,11 @@ width:98%;
 left:0;
 padding:1%;
 }
-.Sach{
-overflow:visible;
-position:absolute;
-width:98%;
-left:100%;
-padding:1%;
-}
 .Geld{
 overflow:visible;
 position:absolute;
 width:98%;
-left:200%;
+left:100%;
 padding:1%;
 }
 .dirc{
@@ -121,4 +105,12 @@ width:40%;
 .dirc_contain{
 	display:flex;
 	flex-wrap:nowrap;
+}
+.tie{
+	text-align:center;
+   font-family: "Times New Roman", Times, serif;
+   font-size:200%;
+}
+.dirc_txt{
+	font-size:150%;
 }

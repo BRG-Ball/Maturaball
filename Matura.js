@@ -1,4 +1,4 @@
-var num = 3
+var num = 2
 function warning(){
 	document.getElementById("hinter").innerHTML=document.getElementById("hinter").innerHTML + "<div id='alert' class='alert'><p class='f_text'>Diese Website ist noch nicht vollendet, weswegen jeglicher Inhalt weder von dem Maturaball Komitee befürwortet wird noch ihrer Meinung entspricht</p>"+
 	"<br><br><p class='f_text'> Schreibe "+'"'+"Ich habe verstanden"+'"'+ " um dieses Fenster zu schließen</p><br>"+
@@ -22,7 +22,7 @@ $(".follow").css({
  	bottom:"0px",
 	position:"absolute",
 	left: (window.innerWidth-window.innerHeight)/2+"px",
-	height:"100vh",
+	height:"100%",
   });
 }
 else{
@@ -63,18 +63,6 @@ $("#moveable").removeAttr("class")
 $("#moveable").addClass("schieben_info")
 }	
 
-function m_Sach(){
-	var x = $("#moveable").position();
-console.log(x)
-console.log("tets")
-	$.keyframe.define([{
-	  name: 'schieben_Sach',
-	'0%': {'left': x.left},
-	 '100%':{'left':'-100%'}
-}]);
-$("#moveable").removeAttr("class")
-$("#moveable").addClass("schieben_Sach")
-}
 function m_Geld(){
 var x = $("#moveable").position();
 console.log(x)
@@ -82,7 +70,7 @@ console.log("tets")
 	$.keyframe.define([{
 	  name: 'schieben_Geld',
 	'0%': {'left': x.left},
-	 '100%':{'left':'-200%'}
+	 '100%':{'left':'-100%'}
 }]);
 $("#moveable").removeAttr("class")
 $("#moveable").addClass("schieben_Geld")	
