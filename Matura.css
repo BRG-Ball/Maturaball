@@ -3,6 +3,7 @@ background-color:lightgray;
   margin: 0;
     height: 100%;
 	overflow:visible;
+	overflow-wrap: break-word;
 }
 .handy_fix{
 	overflow-x:hidden;
