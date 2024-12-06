@@ -41,7 +41,7 @@ $(".follow").css({
   });
    $(".contain").css({
 	"position":"relative",
-	"height":$("#Geld").innerHeight()+"px",
+	"height":$("#Info").innerHeight()+"px",
   });
  }
  /* setTimeout(warning, 1) */

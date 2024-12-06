@@ -125,4 +125,10 @@ width:40%;
 	font-size:150%;
 	 margin:2.5%
 }
+footer{
+ text-align: center;
+  padding: 3px;
+  background-color: DarkSalmon;
+  color: white;
+}
 
