@@ -41,7 +41,15 @@ $(".follow").css({
   });
    $(".contain").css({
 	"position":"relative",
-	"height":$("#Info").innerHeight()+"px",
+	"height":$("#Info").innerHeight()+$("#fot").innerHeight()+"px",
+  });
+     $(".fot").css({
+	 "text-align": "center",
+ "padding": "3px",
+  "background-color": "DarkSalmon",
+  "color": "white",
+  "position":"relative",
+  "top":$("#Info").innerHeight()+"px",
   });
  }
  /* setTimeout(warning, 1) */
