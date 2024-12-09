@@ -17,7 +17,7 @@ function check_v(){
 }
 
 function resize(){
-if (window.innerWidth>=window.innerHeight){ //check for phone
+if (window.innerWidth>=window.innerHeight){ //check for phone (width is bigger than height)
 $(".follow").css({
  	bottom:"0px",
 	position:"absolute",
@@ -39,18 +39,36 @@ $(".follow").css({
    border: "2px black solid",
   display: "inline-block",
   });
+  if(window.innerWidth>=window.innerHeight){
    $(".contain").css({
 	"position":"relative",
 	"height":$("#Info").innerHeight()+$("#fot").innerHeight()+"px",
   });
-     $(".fot").css({
+       $(".fot").css({
 	 "text-align": "center",
  "padding": "3px",
   "background-color": "DarkSalmon",
   "color": "white",
   "position":"relative",
   "top":$("#Info").innerHeight()+"px",
+  }); 
+  }
+ else{
+   $(".contain").css({
+	"position":"relative",
+	"height":$("#Geld").innerHeight()+$("#fot").innerHeight()+"px",
   });
+       $(".fot").css({
+	 "text-align": "center",
+ "padding": "3px",
+  "background-color": "DarkSalmon",
+  "color": "white",
+  "position":"relative",
+  "top":$("#Geld").innerHeight()+"px",
+  });  
+ }
+
+
  }
  /* setTimeout(warning, 1) */
  setInterval(resize,1)
